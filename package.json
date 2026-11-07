@@ -1,0 +1,24 @@
+{
+  "name": "medicare-hospital-management-system",
+  "version": "1.0.0",
+  "description": "Enterprise Hospital Management System built with React, Vite, Tailwind CSS, Python Flask, and PostgreSQL",
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:start": "python backend/run.py",
+    "backend:seed": "python backend/seed.py",
+    "backend:test": "python backend/test_api.py"
+  },
+  "keywords": [
+    "hospital-management-system",
+    "react",
+    "flask",
+    "postgresql",
+    "tailwind-css",
+    "recharts",
+    "jwt-auth"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
+
